@@ -127,28 +127,28 @@ namespace MathClasses
 
         public void Scale(float x, float y, float z)
         {
-            Matrix4 m = new Matrix4(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16);
+            Matrix4 m = new Matrix4();
             m.SetScaled(x, y, z);
             Set(m);
         }
 
         public void RotateX(double radians)
         {
-            Matrix4 m = new Matrix4(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16);
+            Matrix4 m = new Matrix4();
             m.SetRotateX(radians);
             Set(m);
         }
 
         public void RotateY(double radians)
         {
-            Matrix4 m = new Matrix4(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16);
+            Matrix4 m = new Matrix4();
             m.SetRotateY(radians);
             Set(m);
         }
 
         public void RotateZ(double radians)
         {
-            Matrix4 m = new Matrix4(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16);
+            Matrix4 m = new Matrix4();
             m.SetRotateZ(radians);
             Set(m);
         }
