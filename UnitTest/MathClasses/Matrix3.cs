@@ -144,21 +144,21 @@ namespace MathClasses
         {
             Matrix3 m = new Matrix3();
             m.SetRotateX(radians);
-            Set(m);
+            Set(this * m);
         }
 
         public void RotateY(double radians)
         {
             Matrix3 m = new Matrix3();
             m.SetRotateY(radians);
-            Set(m);
+            Set(this *  m);
         }
 
         public void RotateZ(double radians)
         {
             Matrix3 m = new Matrix3();
             m.SetRotateZ(radians);
-            Set(m);
+            Set(this *  m);
         }
 
         public void SetTranslation(float x, float y)
